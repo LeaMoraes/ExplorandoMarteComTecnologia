@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ExplorandoMarteComTecnologia_API.props" />
+</Project>

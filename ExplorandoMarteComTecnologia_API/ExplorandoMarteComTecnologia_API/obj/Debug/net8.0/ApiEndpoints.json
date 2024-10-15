@@ -1,0 +1,543 @@
+[
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.IngressoController",
+    "Method": "PegarIngressos",
+    "RelativePath": "api/Ingresso",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ExplorandoMarteComTecnologia_API.Models.IngressoModel, ExplorandoMarteComTecnologia_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.IngressoController",
+    "Method": "CriarIngresso",
+    "RelativePath": "api/Ingresso",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ingressoDTO",
+        "Type": "System.Collections.Generic.List\u00601[[ExplorandoMarteComTecnologia_API.DTO.IngressoDTO, ExplorandoMarteComTecnologia_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ExplorandoMarteComTecnologia_API.Models.IngressoModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.IngressoController",
+    "Method": "PegarIngresso",
+    "RelativePath": "api/Ingresso/{key}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ExplorandoMarteComTecnologia_API.Models.IngressoModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.IngressosVendasController",
+    "Method": "CriarAssociacaoIdKey",
+    "RelativePath": "api/IngressosVendas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id_venda",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "key_ingresso",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ExplorandoMarteComTecnologia_API.Models.IngressoVendaModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.IngressosVendasController",
+    "Method": "PegarIdEmail",
+    "RelativePath": "api/IngressosVendas/{key_ingresso}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key_ingresso",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.MasterController",
+    "Method": "PegarIngressos",
+    "RelativePath": "api/Master/ingressos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ExplorandoMarteComTecnologia_API.Models.IngressoModel, ExplorandoMarteComTecnologia_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.MasterController",
+    "Method": "PegarIngresso",
+    "RelativePath": "api/Master/ingressos/{key}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ExplorandoMarteComTecnologia_API.Models.IngressoModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.MasterController",
+    "Method": "RealizarLogin",
+    "RelativePath": "api/Master/login/{emailKey}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "emailKey",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ExplorandoMarteComTecnologia_API.DTO.LoginRespostaDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.MasterController",
+    "Method": "NovaVenda",
+    "RelativePath": "api/Master/novavenda",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "novavendaDTO",
+        "Type": "ExplorandoMarteComTecnologia_API.DTO.NovaVendaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.MasterController",
+    "Method": "PegarVendas",
+    "RelativePath": "api/Master/vendas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ExplorandoMarteComTecnologia_API.Models.VendaModel, ExplorandoMarteComTecnologia_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.MasterController",
+    "Method": "PegarVenda",
+    "RelativePath": "api/Master/vendas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ExplorandoMarteComTecnologia_API.Models.VendaModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.RelatorioIngressosController",
+    "Method": "PegarRelatorios",
+    "RelativePath": "api/RelatorioIngressos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ExplorandoMarteComTecnologia_API.Models.RelatorioIngressosModel, ExplorandoMarteComTecnologia_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.RelatorioIngressosController",
+    "Method": "CriarRelatorioIngressos",
+    "RelativePath": "api/RelatorioIngressos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ExplorandoMarteComTecnologia_API.Models.RelatorioIngressosModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.RelatorioIngressosController",
+    "Method": "AtualizarRelatorio",
+    "RelativePath": "api/RelatorioIngressos",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "relatorioDTO",
+        "Type": "ExplorandoMarteComTecnologia_API.DTO.RelatorioIngressosDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.RelatorioIngressosController",
+    "Method": "PegarRelatorio",
+    "RelativePath": "api/RelatorioIngressos/{anoMesDia}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "anoMesDia",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ExplorandoMarteComTecnologia_API.Models.RelatorioIngressosModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.RelatorioIngressosController",
+    "Method": "AtualizarRelatorio",
+    "RelativePath": "api/RelatorioIngressos/{anoMesDia}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "anoMesDia",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "relatorioDTO",
+        "Type": "ExplorandoMarteComTecnologia_API.DTO.RelatorioIngressosDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.RelatorioVendasController",
+    "Method": "PegarRelatorios",
+    "RelativePath": "api/RelatorioVendas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ExplorandoMarteComTecnologia_API.Models.RelatorioVendasModel, ExplorandoMarteComTecnologia_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.RelatorioVendasController",
+    "Method": "CriarRelatorioVendas",
+    "RelativePath": "api/RelatorioVendas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ExplorandoMarteComTecnologia_API.Models.RelatorioVendasModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.RelatorioVendasController",
+    "Method": "AtualizarRelatorio",
+    "RelativePath": "api/RelatorioVendas",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "relatorioDTO",
+        "Type": "ExplorandoMarteComTecnologia_API.DTO.RelatorioVendasDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.RelatorioVendasController",
+    "Method": "PegarRelatorio",
+    "RelativePath": "api/RelatorioVendas/{anoMesDia}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "anoMesDia",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ExplorandoMarteComTecnologia_API.Models.RelatorioVendasModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.RelatorioVendasController",
+    "Method": "AtualizarRelatorio",
+    "RelativePath": "api/RelatorioVendas/{anoMesDia}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "anoMesDia",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "relatorioDTO",
+        "Type": "ExplorandoMarteComTecnologia_API.DTO.RelatorioVendasDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.VendaController",
+    "Method": "PegarVendas",
+    "RelativePath": "api/Venda",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ExplorandoMarteComTecnologia_API.Models.VendaModel, ExplorandoMarteComTecnologia_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.VendaController",
+    "Method": "CriarVenda",
+    "RelativePath": "api/Venda",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "venda",
+        "Type": "ExplorandoMarteComTecnologia_API.Models.VendaModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.VendaController",
+    "Method": "PegarVenda",
+    "RelativePath": "api/Venda/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ExplorandoMarteComTecnologia_API.Models.VendaModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
