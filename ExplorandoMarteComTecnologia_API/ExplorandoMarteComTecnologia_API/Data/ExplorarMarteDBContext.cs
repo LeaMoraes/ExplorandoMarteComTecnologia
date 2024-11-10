@@ -18,5 +18,9 @@ namespace ExplorandoMarteComTecnologia_API.Data
         public DbSet<RelatorioIngressosModel> RelatorioIngressos { get; set; }
         public DbSet<RelatorioVendasModel> RelatorioVendas { get; set; }
 
+        public DbSet<QuestionarioRespostasModel> QuestionarioRespostas { get; set; }
+        public DbSet<AvaliacaoRespostasModel> AvaliacaoRespostas { get; set; }
+        public DbSet<AvaliacaoSugestaoModel> AvaliacaoSugestao { get; set; }
+
     }
 }

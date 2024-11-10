@@ -20,7 +20,7 @@ namespace ExplorandoMarteComTecnologia_API.Controllers
         }
 
         [HttpPost("novavenda")]
-        public async Task<ActionResult<NomeKeyDTO>> NovaVenda([FromBody] NovaVendaDTO novavendaDTO)
+        public async Task<ActionResult> NovaVenda([FromBody] NovaVendaDTO novavendaDTO)
         {
             using( var transaction = _dbcontext.Database.BeginTransaction())
             {
@@ -42,15 +42,10 @@ namespace ExplorandoMarteComTecnologia_API.Controllers
                 //Atribui chaves para todos os ingressos
                 KeyGenerator keyGenerator = new KeyGenerator();
                 List<IngressoDTO> ingressoComKey;
-                List<NomeKeyDTO> nomeKeyVisual = new List<NomeKeyDTO>();
 
                 try
                 {
                     ingressoComKey = keyGenerator.AtribuirKey(ingressoDTO, venda.Email);
-                    foreach(var ingresso in ingressoComKey)
-                    {
-                        nomeKeyVisual.Add(new NomeKeyDTO { Nome = ingresso.Nome, Key = ingresso.Key });
-                    }
                 }
                 catch (Exception ex)
                 {
@@ -143,7 +138,7 @@ namespace ExplorandoMarteComTecnologia_API.Controllers
 
                     await _dbcontext.SaveChangesAsync();
                     await transaction.CommitAsync();
-                    return Ok(nomeKeyVisual);
+                    return Ok(new { message = "Compra feita com sucesso!" });
                 }
                 catch (Exception ex)
                 {
@@ -298,18 +293,10 @@ namespace ExplorandoMarteComTecnologia_API.Controllers
 
             QuestionarioRespostasController questionarioRespostasController = new QuestionarioRespostasController(_dbcontext);
             AvaliacaoRespostasController avaliacaoRespostasController = new AvaliacaoRespostasController(_dbcontext);
-            AvaliacaoSugestaoController avaliacaoSugestaoController = new AvaliacaoSugestaoController(_dbcontext);
             using(var transaction = _dbcontext.Database.BeginTransaction())
             {
-
                 try
                 {
-
-                    if (questionarioAvaliacaoRespostasDto.avaliacaoSugestao != null)
-                    {
-                        await avaliacaoSugestaoController.ArmazenarSugestao(questionarioAvaliacaoRespostasDto.avaliacaoSugestao);
-                    }
-
                     foreach (var respostas in questionarioRespostas)
                     {
                         await questionarioRespostasController.AtualizarRespostas(respostas);
@@ -359,14 +346,6 @@ namespace ExplorandoMarteComTecnologia_API.Controllers
             AvaliacaoRespostasController avaliacaoRespostasController = new AvaliacaoRespostasController(_dbcontext);
             return await avaliacaoRespostasController.PegarPergunta(id);
         }
-
-        [HttpGet("QuestionarioAvaliacao/s")]
-        public async Task<ActionResult<IEnumerable<AvaliacaoSugestaoModel>>> PegarSugestoes()
-        {
-            AvaliacaoSugestaoController avaliacaoSugestaoController = new AvaliacaoSugestaoController(_dbcontext);
-            return await avaliacaoSugestaoController.PegarTodasSugestoes();
-        }
-
 
         private LoginRespostaDTO CriarRespostaErro()
         {

@@ -1,5 +1,6 @@
 ﻿using ExplorandoMarteComTecnologia_API.DTO;
 using ExplorandoMarteComTecnologia_API.Models;
+using Microsoft.EntityFrameworkCore;
 using System.Text.RegularExpressions;
 
 namespace ExplorandoMarteComTecnologia_API.Controllers
@@ -174,6 +175,64 @@ namespace ExplorandoMarteComTecnologia_API.Controllers
             int dia = Convert.ToInt32(diaString);
 
             return (ano, mes, dia);
+        }
+
+        public bool PerguntaExiste(List<QuestionarioRespostasModel> perguntas, string pergunta)
+        {            
+            var perguntaAchada = perguntas.SingleOrDefault(p => p.Pergunta.ToLower() == pergunta.ToLower());
+
+            if (perguntaAchada == null)
+            {
+                return false;
+            }
+
+            return true;
+        }
+
+        public bool PerguntaExiste(List<AvaliacaoRespostasModel> perguntas, string pergunta)
+        {
+            var perguntaAchada = perguntas.SingleOrDefault(p => p.Pergunta.ToLower() == pergunta.ToLower());
+
+            if (perguntaAchada == null)
+            {
+                return false;
+            }
+
+            return true;
+        }
+
+        public bool PerguntaIdIgual(List<QuestionarioRespostasModel> perguntas, int id, string pergunta)
+        {
+            
+            var perguntaAchada = perguntas.SingleOrDefault(p => p.Id == id);
+
+            if (perguntaAchada == null)
+            {
+                return false; // Não encontrou uma pergunta com o ID especificado
+            }
+
+            if (!perguntaAchada.Pergunta.ToLower().Equals(pergunta.ToLower()))
+            {
+                return false;
+            }
+            return true;
+        }
+
+        public bool PerguntaIdIgual(List<AvaliacaoRespostasModel> perguntas, int id, string pergunta)
+        {
+
+            var perguntaAchada = perguntas.SingleOrDefault(p => p.Id == id);
+
+            if (perguntaAchada == null)
+            {
+                return false; // Não encontrou uma pergunta com o ID especificado
+            }
+
+            if (!perguntaAchada.Pergunta.ToLower().Equals(pergunta.ToLower()))
+            {
+                return false;
+            }
+            return true;
         }
 
 

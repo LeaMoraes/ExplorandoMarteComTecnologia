@@ -1,5 +1,129 @@
 [
   {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.AvaliacaoRespostasController",
+    "Method": "PegarTodasPerguntas",
+    "RelativePath": "api/AvaliacaoRespostas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ExplorandoMarteComTecnologia_API.Models.AvaliacaoRespostasModel, ExplorandoMarteComTecnologia_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.AvaliacaoRespostasController",
+    "Method": "CriarPergunta",
+    "RelativePath": "api/AvaliacaoRespostas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "avaliacaoRespostas",
+        "Type": "ExplorandoMarteComTecnologia_API.Models.AvaliacaoRespostasModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ExplorandoMarteComTecnologia_API.Models.AvaliacaoRespostasModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.AvaliacaoRespostasController",
+    "Method": "AtualizarRespostas",
+    "RelativePath": "api/AvaliacaoRespostas",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "avaliacaoRespostas",
+        "Type": "ExplorandoMarteComTecnologia_API.Models.AvaliacaoRespostasModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.AvaliacaoRespostasController",
+    "Method": "PegarPergunta",
+    "RelativePath": "api/AvaliacaoRespostas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ExplorandoMarteComTecnologia_API.Models.AvaliacaoRespostasModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.AvaliacaoSugestaoController",
+    "Method": "ArmazenarSugestao",
+    "RelativePath": "api/AvaliacaoSugestao",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "avaliacaoSugestaoModel",
+        "Type": "ExplorandoMarteComTecnologia_API.Models.AvaliacaoSugestaoModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.AvaliacaoSugestaoController",
+    "Method": "PegarTodasSugestoes",
+    "RelativePath": "api/AvaliacaoSugestao",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ExplorandoMarteComTecnologia_API.Models.AvaliacaoSugestaoModel, ExplorandoMarteComTecnologia_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.IngressoController",
     "Method": "PegarIngressos",
     "RelativePath": "api/Ingresso",
@@ -214,7 +338,237 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": [
+      {
+        "Type": "ExplorandoMarteComTecnologia_API.DTO.NomeKeyDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.MasterController",
+    "Method": "ArmazenarRespostas",
+    "RelativePath": "api/Master/QuestionarioAvaliacao",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "questionarioAvaliacaoRespostasDto",
+        "Type": "ExplorandoMarteComTecnologia_API.DTO.QuestionarioAvaliacaoRespostasDTO",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.MasterController",
+    "Method": "PegarRespostasPerguntasAvaliacao",
+    "RelativePath": "api/Master/QuestionarioAvaliacao/a",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ExplorandoMarteComTecnologia_API.Models.AvaliacaoRespostasModel, ExplorandoMarteComTecnologia_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.MasterController",
+    "Method": "PegarRespostasPerguntaAvaliacao",
+    "RelativePath": "api/Master/QuestionarioAvaliacao/a/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ExplorandoMarteComTecnologia_API.Models.AvaliacaoRespostasModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.MasterController",
+    "Method": "PegarRespostasPerguntasQuestionario",
+    "RelativePath": "api/Master/QuestionarioAvaliacao/q",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ExplorandoMarteComTecnologia_API.Models.QuestionarioRespostasModel, ExplorandoMarteComTecnologia_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.MasterController",
+    "Method": "PegarRespostasPerguntaQuestionario",
+    "RelativePath": "api/Master/QuestionarioAvaliacao/q/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ExplorandoMarteComTecnologia_API.Models.QuestionarioRespostasModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.MasterController",
+    "Method": "PegarSugestoes",
+    "RelativePath": "api/Master/QuestionarioAvaliacao/s",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ExplorandoMarteComTecnologia_API.Models.AvaliacaoSugestaoModel, ExplorandoMarteComTecnologia_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.MasterController",
+    "Method": "PegarRelatoriosIngressos",
+    "RelativePath": "api/Master/relatorioIngressos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ExplorandoMarteComTecnologia_API.Models.RelatorioIngressosModel, ExplorandoMarteComTecnologia_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.MasterController",
+    "Method": "PegarRelatorioIngressos",
+    "RelativePath": "api/Master/relatorioIngressos/{anoMesDia}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "anoMesDia",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ExplorandoMarteComTecnologia_API.Models.RelatorioIngressosModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.MasterController",
+    "Method": "PegarRelatoriosVenda",
+    "RelativePath": "api/Master/relatorioVendas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ExplorandoMarteComTecnologia_API.Models.RelatorioVendasModel, ExplorandoMarteComTecnologia_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.MasterController",
+    "Method": "PegarRelatorioVenda",
+    "RelativePath": "api/Master/relatorioVendas/{anoMesDia}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "anoMesDia",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ExplorandoMarteComTecnologia_API.Models.RelatorioVendasModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.MasterController",
@@ -253,6 +607,94 @@
     "ReturnTypes": [
       {
         "Type": "ExplorandoMarteComTecnologia_API.Models.VendaModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.QuestionarioRespostasController",
+    "Method": "PegarTodasPerguntas",
+    "RelativePath": "api/QuestionarioRespostas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ExplorandoMarteComTecnologia_API.Models.QuestionarioRespostasModel, ExplorandoMarteComTecnologia_API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.QuestionarioRespostasController",
+    "Method": "CriarPergunta",
+    "RelativePath": "api/QuestionarioRespostas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "questionarioRespostas",
+        "Type": "ExplorandoMarteComTecnologia_API.Models.QuestionarioRespostasModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ExplorandoMarteComTecnologia_API.Models.QuestionarioRespostasModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.QuestionarioRespostasController",
+    "Method": "AtualizarRespostas",
+    "RelativePath": "api/QuestionarioRespostas",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "questionarioRespostas",
+        "Type": "ExplorandoMarteComTecnologia_API.Models.QuestionarioRespostasModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ExplorandoMarteComTecnologia_API.Controllers.QuestionarioRespostasController",
+    "Method": "PegarPergunta",
+    "RelativePath": "api/QuestionarioRespostas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ExplorandoMarteComTecnologia_API.Models.QuestionarioRespostasModel",
         "MediaTypes": [
           "text/plain",
           "application/json",

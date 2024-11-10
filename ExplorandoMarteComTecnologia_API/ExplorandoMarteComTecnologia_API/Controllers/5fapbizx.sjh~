@@ -1,0 +1,130 @@
+﻿using ExplorandoMarteComTecnologia_API.Data;
+using ExplorandoMarteComTecnologia_API.DTO;
+using ExplorandoMarteComTecnologia_API.Models;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+
+namespace ExplorandoMarteComTecnologia_API.Controllers
+{
+    [Route("api/[controller]")]
+    [ApiController]
+    public class QuestionarioRespostasController : ControllerBase
+    {
+
+        private readonly ExplorarMarteDBContext _dbcontext;
+
+        public QuestionarioRespostasController(ExplorarMarteDBContext dbcontext)
+        {
+            _dbcontext = dbcontext;
+        }
+
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<QuestionarioRespostasModel>>> PegarTodasPerguntas()
+        {
+            var perguntas = await _dbcontext.QuestionarioRespostas.ToListAsync();
+            return Ok(perguntas);
+        }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<IngressoModel>> PegarPergunta(int id)
+        {
+            var pergunta = await _dbcontext.QuestionarioRespostas.SingleOrDefaultAsync(p => p.Id == id);
+
+            if (pergunta == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(pergunta);
+        }
+
+        [HttpPost]
+        public async Task<ActionResult<QuestionarioRespostasModel>> CriarPergunta(QuestionarioRespostasModel questionarioRespostas)
+        {
+            //Garantia que na criação de pergunta, os valores iniciam com 0
+            questionarioRespostas.Acertos = 0;
+            questionarioRespostas.Erros = 0;
+
+            try
+            {
+                bool existe = await PerguntaExiste(questionarioRespostas.Pergunta);
+                if (existe == false)
+                {
+                    return BadRequest("A pergunta já existe no banco de dados.");
+                }
+
+                _dbcontext.QuestionarioRespostas.Add(questionarioRespostas);              
+                await _dbcontext.SaveChangesAsync();
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, $"Erro ao criar pergunta: {ex.Message}");
+            }
+
+        }
+
+        [HttpPut]
+        public async Task<ActionResult> AtualizarRespostas(QuestionarioRespostasModel questionarioRespostas)
+        {
+
+            var pergunta = await _dbcontext.QuestionarioRespostas.FirstOrDefaultAsync(p => p.Id == questionarioRespostas.Id);
+
+            if (pergunta == null)
+            {
+                return NotFound("Pergunta não encontrada!");
+            }
+
+            bool perguntaIdIgual = await PerguntaIdIgual(questionarioRespostas.Id, questionarioRespostas.Pergunta);
+
+            if (perguntaIdIgual == false)
+            {
+                return NotFound("O ID não bate com a Pergunta no banco de dados.");
+            }
+
+            pergunta.Acertos += questionarioRespostas.Acertos;
+            pergunta.Erros += questionarioRespostas.Erros;
+
+            _dbcontext.Entry(pergunta).State = EntityState.Modified;
+
+            try
+            {
+                await _dbcontext.SaveChangesAsync();
+                return Ok();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                return BadRequest();
+            }
+
+        }
+
+
+        private async Task<bool> PerguntaExiste (string pergunta)
+        {
+            var perguntas = await _dbcontext.QuestionarioRespostas.ToListAsync();
+            var perguntaAchada = perguntas.SingleOrDefault(p => p.Pergunta.ToLower() == pergunta.ToLower());
+            return perguntaAchada != null;
+        }
+
+        private async Task<bool> PerguntaIdIgual(int id, string pergunta)
+        {
+            var perguntas = await _dbcontext.QuestionarioRespostas.ToListAsync();
+            var perguntaAchada = perguntas.SingleOrDefault(p => p.Id == id);
+
+            if (perguntaAchada == null)
+            {
+                return false; // Não encontrou uma pergunta com o ID especificado
+            }
+
+            if (!perguntaAchada.Pergunta.Equals(pergunta))
+            {
+                return false;
+            }
+            return true;
+        }
+
+
+    }
+}

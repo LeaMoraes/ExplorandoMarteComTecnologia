@@ -4,6 +4,7 @@ using ExplorandoMarteComTecnologia_API.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ExplorandoMarteComTecnologia_API.Migrations
 {
     [DbContext(typeof(ExplorarMarteDBContext))]
-    partial class ExplorarMarteDBContextModelSnapshot : ModelSnapshot
+    [Migration("20241030155917_QuestionarioAvaliacaoAdd")]
+    partial class QuestionarioAvaliacaoAdd
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -30,45 +33,28 @@ namespace ExplorandoMarteComTecnologia_API.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("Bom")
+                    b.Property<int?>("Bom")
                         .HasColumnType("int");
 
-                    b.Property<int>("Excelente")
+                    b.Property<int?>("Excelente")
                         .HasColumnType("int");
 
                     b.Property<string>("Pergunta")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Pessimo")
+                    b.Property<int?>("Pessimo")
                         .HasColumnType("int");
 
-                    b.Property<int>("Regular")
+                    b.Property<int?>("Regular")
                         .HasColumnType("int");
 
-                    b.Property<int>("Ruim")
+                    b.Property<int?>("Ruim")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
                     b.ToTable("AvaliacaoRespostas");
-                });
-
-            modelBuilder.Entity("ExplorandoMarteComTecnologia_API.Models.AvaliacaoSugestaoModel", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Sugestao")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("AvaliacaoSugestao");
                 });
 
             modelBuilder.Entity("ExplorandoMarteComTecnologia_API.Models.IngressoModel", b =>

@@ -4,6 +4,7 @@ using ExplorandoMarteComTecnologia_API.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ExplorandoMarteComTecnologia_API.Migrations
 {
     [DbContext(typeof(ExplorarMarteDBContext))]
-    partial class ExplorarMarteDBContextModelSnapshot : ModelSnapshot
+    [Migration("20241102174543_SugestoesAdd")]
+    partial class SugestoesAdd
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
