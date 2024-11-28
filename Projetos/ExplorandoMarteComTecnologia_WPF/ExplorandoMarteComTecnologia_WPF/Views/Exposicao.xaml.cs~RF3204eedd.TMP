@@ -1,0 +1,100 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+
+namespace ExplorandoMarteComTecnologia_WPF.Views
+{
+    /// <summary>
+    /// Interação lógica para Exposicao.xam
+    /// </summary>
+    public partial class Exposicao : Page
+    {
+        public Exposicao(int obraIndex)
+        {
+            InitializeComponent();
+            MudarExposicao(obraIndex);
+            lblIndex.Content = obraIndex.ToString();
+        }
+
+        private void btnVoltar_Click(object sender, RoutedEventArgs e)
+        {
+            // Acessar a janela principal
+            var mainWindow = (MainWindow)Application.Current.MainWindow;
+
+            // Carregar a página Exposicoes no MainFrame
+            mainWindow.MainFrame.Content = new Exposicoes();
+        }
+
+        private void MudarExposicao(int obraIndex)
+        {
+            switch (obraIndex)
+            {
+                case 0:
+                    lblObraTitulo.Content = "O Planeta Vermelho";
+                    lblDescricao.Content = "Marte é conhecido por sua característica cor vermelha, um traço distintivo que fascina cientistas e astrônomos. Essa tonalidade é resultado da presença de óxido de ferro em sua superfície, um produto da oxidação intensa do ferro presente na terra marciana. Em comparação com a Terra, a oxidação em Marte é muito mais acentuada, conferindo ao planeta sua aparência única e deslumbrante.";
+                    imgObra.Source = new BitmapImage(new Uri("/Imagens/Exposicoes/O_Planeta_Vermelho.jpg", UriKind.Relative));
+                    break;
+
+                case 1:
+                    lblObraTitulo.Content = "Exploração e Potencial para Vida";
+                    lblDescricao.Content = "";
+                    imgObra.Source = new BitmapImage(new Uri("/Imagens/Exposicoes/Exploracao_e_Potencial_para_Vida.png", UriKind.Relative));
+                    break;
+
+                case 2:
+                    lblObraTitulo.Content = "Terreno Marciano";
+                    lblDescricao.Content = "";
+                    imgObra.Source = new BitmapImage(new Uri("/Imagens/Exposicoes/Terreno_Marciano.jpg", UriKind.Relative));
+                    break;
+
+                case 3:
+                    lblObraTitulo.Content = "Agua em Marte";
+                    lblDescricao.Content = "";
+                    imgObra.Source = new BitmapImage(new Uri("/Imagens/Exposicoes/Agua_em_Marte.jpg", UriKind.Relative));
+                    break;
+
+                case 4:
+                    lblObraTitulo.Content = "Valles Marineris";
+                    lblDescricao.Content = "";
+                    imgObra.Source = new BitmapImage(new Uri("/Imagens/Exposicoes/Valles_Marineris.jpg", UriKind.Relative));
+                    break;
+
+                case 5:
+                    lblObraTitulo.Content = "O Monte Olimpo";
+                    lblDescricao.Content = "";
+                    imgObra.Source = new BitmapImage(new Uri("/Imagens/Exposicoes/O_Monte_Olimpo.jpg", UriKind.Relative));
+                    break;
+
+                case 6:
+                    lblObraTitulo.Content = "Impacto de Asteroides";
+                    lblDescricao.Content = "";
+                    imgObra.Source = new BitmapImage(new Uri("/Imagens/Exposicoes/Impacto_de_Asteroides.jpg", UriKind.Relative));
+                    break;
+
+                case 7:
+                    lblObraTitulo.Content = "Colonização de Marte";
+                    lblDescricao.Content = "";
+                    imgObra.Source = new BitmapImage(new Uri("/Imagens/Exposicoes/Colonizacao_de_Marte.jpg", UriKind.Relative));
+                    break;
+
+                default:
+                    //Se uma obra não existente for selecionada, voltar para o menu
+                    var mainWindow = (MainWindow)Application.Current.MainWindow;
+                    mainWindow.MainFrame.Content = new Exposicoes();
+                    break;
+
+            }
+        }
+    }
+}

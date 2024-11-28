@@ -1,0 +1,107 @@
+﻿using ExplorandoMarteComTecnologia_WPF.Controllers;
+using ExplorandoMarteComTecnologia_WPF.Views;
+using System.Runtime.CompilerServices;
+using System.Text;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+
+namespace ExplorandoMarteComTecnologia_WPF
+{
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+        }       
+        
+        //PARA FAZER:
+        //Retirar o branco que aparece quando coloca o mouse em um botão
+        //Melhorar e inserir imagens certas do sistema
+
+        private async void btnQuestionario_Click(object sender, RoutedEventArgs e)
+        {
+
+            btnExposicoes.IsEnabled = false;
+            btnMapa.IsEnabled = false;
+            btnQuestionario.IsEnabled = false;
+
+            Estatico.MENSAGEMCOMUNICACAO = "";
+
+            if (String.IsNullOrEmpty(Estatico.LINKAPI))
+            {
+                MessageBox.Show($"API não configurada\nImpedindo Questionario para evitar erros\nPedir ajuda de um funcionario!");
+
+                btnExposicoes.IsEnabled = true;
+                btnMapa.IsEnabled = true;
+                btnQuestionario.IsEnabled = true;
+                return;
+            }
+
+            Questionario questionario = new Questionario();
+            this.Hide();
+            questionario.ShowDialog();
+
+
+
+            this.Show();
+            if (Estatico.MENSAGEMCOMUNICACAO == "ARMAZENAR")
+            {
+                Controle controle = new Controle();
+                string json = controle.MontarJsonQuestionarioAvaliacao(Estatico.questionarioRespostas, Estatico.avaliacaoRespostas, Estatico.COMENTARIO);
+                if(json != "")
+                {
+                    await controle.ArmazenarRespostas("/api/Master/QuestionarioAvaliacao", json);
+                    //voltando para o MainFrame, abrir uma pagina nova de respostas
+                    //Mostrar respostas certas (e a que o usuario errou)
+                    RelatorioRespostas relatorioRespostas = new RelatorioRespostas();
+                    MainFrame.NavigationService.Navigate(relatorioRespostas);
+                }
+
+            }
+
+            btnExposicoes.IsEnabled = true;
+            btnMapa.IsEnabled = true;
+            btnQuestionario.IsEnabled = true;
+
+        }
+
+        private void btnExposicoes_Click(object sender, RoutedEventArgs e)
+        {            
+            Exposicoes exposicoes = new Exposicoes();
+            MainFrame.NavigationService.Navigate(exposicoes);
+        }
+
+        private void btnMapa_Click(object sender, RoutedEventArgs e)
+        {
+            Mapa mapa = new Mapa();
+            MainFrame.NavigationService.Navigate(mapa);
+
+        }
+
+        private void MainFrame_Navigated(object sender, NavigationEventArgs e)
+        {
+
+        }
+
+        private void Window_KeyDown(object sender, KeyEventArgs e)
+        {
+            MessageBox.Show("A tecla foi pressionada! Entrando em um IF...");
+            if (e.Key == Key.LeftCtrl || e.Key == Key.RightCtrl)
+            {
+                MessageBox.Show("A tecla CTRL foi pressionada! Executando ação...");
+                Configuracoes configuracores = new Configuracoes();
+                MainFrame.NavigationService.Navigate(configuracores);
+            }
+        }
+    }
+}

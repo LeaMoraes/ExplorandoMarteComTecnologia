@@ -1,0 +1,48 @@
+﻿using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net.Http;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+
+namespace ExplorandoMarteComTecnologia_WPF.Service
+{
+    internal class ControllService
+    {
+
+        private readonly HttpClient _httpClient;
+        private const string BaseUrl = "http://localhost:5000/api/Master";
+
+        public ControllService()
+        {
+            _httpClient = new HttpClient { BaseAddress = new Uri(BaseUrl) };
+        }
+
+        public async Task<string> PutDataAsync(string endpoint, object data)
+        {
+            var content = new StringContent(JsonConvert.SerializeObject(data), Encoding.UTF8, "application/json");
+            var mensagem = "";
+            try
+            {
+                var response = await _httpClient.PutAsync(endpoint, content);
+                if (response.IsSuccessStatusCode)
+                {
+                    mensagem = await response.Content.ReadAsStringAsync();
+                }
+            }
+            catch(Exception e)
+            {
+                return $"Erro ao atualizar dados: {e}";
+            }
+
+
+            return mensagem;
+
+
+        }
+
+
+    }
+}

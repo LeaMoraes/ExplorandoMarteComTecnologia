@@ -1,0 +1,537 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_api\\explorandomartecomtecnologia_api\\controllers\\mastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|solutionrelative:explorandomartecomtecnologia_api\\controllers\\mastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_api\\explorandomartecomtecnologia_api\\controllers\\ingressocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|solutionrelative:explorandomartecomtecnologia_api\\controllers\\ingressocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_api\\explorandomartecomtecnologia_api\\controllers\\vendacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|solutionrelative:explorandomartecomtecnologia_api\\controllers\\vendacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_api\\explorandomartecomtecnologia_api\\controllers\\ingressosvendascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|solutionrelative:explorandomartecomtecnologia_api\\controllers\\ingressosvendascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_api\\explorandomartecomtecnologia_api\\controllers\\relatorioingressoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|solutionrelative:explorandomartecomtecnologia_api\\controllers\\relatorioingressoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_api\\explorandomartecomtecnologia_api\\controllers\\relatoriovendascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|solutionrelative:explorandomartecomtecnologia_api\\controllers\\relatoriovendascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_api\\explorandomartecomtecnologia_api\\controllers\\questionariorespostascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|solutionrelative:explorandomartecomtecnologia_api\\controllers\\questionariorespostascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_api\\explorandomartecomtecnologia_api\\controllers\\avaliacaorespostascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|solutionrelative:explorandomartecomtecnologia_api\\controllers\\avaliacaorespostascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_api\\explorandomartecomtecnologia_api\\controllers\\avaliacaosugestaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|solutionrelative:explorandomartecomtecnologia_api\\controllers\\avaliacaosugestaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_api\\explorandomartecomtecnologia_api\\controllers\\validacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|solutionrelative:explorandomartecomtecnologia_api\\controllers\\validacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_api\\explorandomartecomtecnologia_api\\controllers\\keygenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|solutionrelative:explorandomartecomtecnologia_api\\controllers\\keygenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_api\\explorandomartecomtecnologia_api\\data\\explorarmartedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|solutionrelative:explorandomartecomtecnologia_api\\data\\explorarmartedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_api\\explorandomartecomtecnologia_api\\models\\ingressomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|solutionrelative:explorandomartecomtecnologia_api\\models\\ingressomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_api\\explorandomartecomtecnologia_api\\models\\vendamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|solutionrelative:explorandomartecomtecnologia_api\\models\\vendamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_api\\explorandomartecomtecnologia_api\\models\\ingressovendamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|solutionrelative:explorandomartecomtecnologia_api\\models\\ingressovendamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_api\\explorandomartecomtecnologia_api\\models\\questionariorespostasmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|solutionrelative:explorandomartecomtecnologia_api\\models\\questionariorespostasmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_api\\explorandomartecomtecnologia_api\\models\\avaliacaorespostasmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|solutionrelative:explorandomartecomtecnologia_api\\models\\avaliacaorespostasmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_api\\explorandomartecomtecnologia_api\\models\\avaliacaosugestaomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|solutionrelative:explorandomartecomtecnologia_api\\models\\avaliacaosugestaomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_api\\explorandomartecomtecnologia_api\\models\\relatorioingressosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|solutionrelative:explorandomartecomtecnologia_api\\models\\relatorioingressosmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_api\\explorandomartecomtecnologia_api\\models\\relatoriovendasmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|solutionrelative:explorandomartecomtecnologia_api\\models\\relatoriovendasmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_api\\explorandomartecomtecnologia_api\\dto\\avaliacaorespostasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|solutionrelative:explorandomartecomtecnologia_api\\dto\\avaliacaorespostasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_api\\explorandomartecomtecnologia_api\\dto\\emailkeydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|solutionrelative:explorandomartecomtecnologia_api\\dto\\emailkeydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_api\\explorandomartecomtecnologia_api\\dto\\ingressodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|solutionrelative:explorandomartecomtecnologia_api\\dto\\ingressodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_api\\explorandomartecomtecnologia_api\\dto\\loginrespostadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|solutionrelative:explorandomartecomtecnologia_api\\dto\\loginrespostadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_api\\explorandomartecomtecnologia_api\\dto\\nomekeydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|solutionrelative:explorandomartecomtecnologia_api\\dto\\nomekeydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_api\\explorandomartecomtecnologia_api\\dto\\novavendadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|solutionrelative:explorandomartecomtecnologia_api\\dto\\novavendadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_api\\explorandomartecomtecnologia_api\\dto\\questionarioavaliacaorespostasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|solutionrelative:explorandomartecomtecnologia_api\\dto\\questionarioavaliacaorespostasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_api\\explorandomartecomtecnologia_api\\dto\\questionariorespostasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|solutionrelative:explorandomartecomtecnologia_api\\dto\\questionariorespostasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_api\\explorandomartecomtecnologia_api\\dto\\relatorioingressosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|solutionrelative:explorandomartecomtecnologia_api\\dto\\relatorioingressosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_api\\explorandomartecomtecnologia_api\\dto\\relatoriovendasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|solutionrelative:explorandomartecomtecnologia_api\\dto\\relatoriovendasdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_api\\explorandomartecomtecnologia_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|solutionrelative:explorandomartecomtecnologia_api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_api\\explorandomartecomtecnologia_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5DC5898E-C967-4719-B7C9-80D0ED80D76C}|ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API.csproj|solutionrelative:explorandomartecomtecnologia_api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 32,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QuestionarioRespostasController.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Controllers\\QuestionarioRespostasController.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_API\\Controllers\\QuestionarioRespostasController.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Controllers\\QuestionarioRespostasController.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_API\\Controllers\\QuestionarioRespostasController.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAUwKYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:37:18.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ExplorarMarteDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Data\\ExplorarMarteDBContext.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_API\\Data\\ExplorarMarteDBContext.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Data\\ExplorarMarteDBContext.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_API\\Data\\ExplorarMarteDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:35:51.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IngressoModel.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Models\\IngressoModel.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_API\\Models\\IngressoModel.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Models\\IngressoModel.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_API\\Models\\IngressoModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:34:02.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "VendaModel.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Models\\VendaModel.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_API\\Models\\VendaModel.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Models\\VendaModel.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_API\\Models\\VendaModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:33:51.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IngressoVendaModel.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Models\\IngressoVendaModel.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_API\\Models\\IngressoVendaModel.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Models\\IngressoVendaModel.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_API\\Models\\IngressoVendaModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:33:40.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "QuestionarioRespostasModel.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Models\\QuestionarioRespostasModel.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_API\\Models\\QuestionarioRespostasModel.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Models\\QuestionarioRespostasModel.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_API\\Models\\QuestionarioRespostasModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:33:29.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AvaliacaoRespostasModel.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Models\\AvaliacaoRespostasModel.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_API\\Models\\AvaliacaoRespostasModel.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Models\\AvaliacaoRespostasModel.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_API\\Models\\AvaliacaoRespostasModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:33:19.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AvaliacaoSugestaoModel.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Models\\AvaliacaoSugestaoModel.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_API\\Models\\AvaliacaoSugestaoModel.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Models\\AvaliacaoSugestaoModel.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_API\\Models\\AvaliacaoSugestaoModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:33:06.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RelatorioIngressosModel.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Models\\RelatorioIngressosModel.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_API\\Models\\RelatorioIngressosModel.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Models\\RelatorioIngressosModel.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_API\\Models\\RelatorioIngressosModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:31:21.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RelatorioVendasModel.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Models\\RelatorioVendasModel.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_API\\Models\\RelatorioVendasModel.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Models\\RelatorioVendasModel.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_API\\Models\\RelatorioVendasModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:30:29.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AvaliacaoRespostasDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\DTO\\AvaliacaoRespostasDTO.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_API\\DTO\\AvaliacaoRespostasDTO.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\DTO\\AvaliacaoRespostasDTO.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_API\\DTO\\AvaliacaoRespostasDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:27:24.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EmailKeyDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\DTO\\EmailKeyDTO.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_API\\DTO\\EmailKeyDTO.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\DTO\\EmailKeyDTO.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_API\\DTO\\EmailKeyDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:27:16.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IngressoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\DTO\\IngressoDTO.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_API\\DTO\\IngressoDTO.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\DTO\\IngressoDTO.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_API\\DTO\\IngressoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:27:09.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoginRespostaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\DTO\\LoginRespostaDTO.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_API\\DTO\\LoginRespostaDTO.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\DTO\\LoginRespostaDTO.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_API\\DTO\\LoginRespostaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:26:52.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "NomeKeyDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\DTO\\NomeKeyDTO.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_API\\DTO\\NomeKeyDTO.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\DTO\\NomeKeyDTO.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_API\\DTO\\NomeKeyDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:26:42.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "NovaVendaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\DTO\\NovaVendaDTO.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_API\\DTO\\NovaVendaDTO.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\DTO\\NovaVendaDTO.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_API\\DTO\\NovaVendaDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:26:20.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "QuestionarioAvaliacaoRespostasDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\DTO\\QuestionarioAvaliacaoRespostasDTO.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_API\\DTO\\QuestionarioAvaliacaoRespostasDTO.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\DTO\\QuestionarioAvaliacaoRespostasDTO.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_API\\DTO\\QuestionarioAvaliacaoRespostasDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:26:06.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "QuestionarioRespostasDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\DTO\\QuestionarioRespostasDTO.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_API\\DTO\\QuestionarioRespostasDTO.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\DTO\\QuestionarioRespostasDTO.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_API\\DTO\\QuestionarioRespostasDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:25:46.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RelatorioIngressosDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\DTO\\RelatorioIngressosDTO.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_API\\DTO\\RelatorioIngressosDTO.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\DTO\\RelatorioIngressosDTO.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_API\\DTO\\RelatorioIngressosDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:25:00.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RelatorioVendasDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\DTO\\RelatorioVendasDTO.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_API\\DTO\\RelatorioVendasDTO.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\DTO\\RelatorioVendasDTO.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_API\\DTO\\RelatorioVendasDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T19:24:01.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Program.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_API\\Program.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Program.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_API\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T16:42:16.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\appsettings.json",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\appsettings.json",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-13T16:42:08.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IngressosVendasController.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Controllers\\IngressosVendasController.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_API\\Controllers\\IngressosVendasController.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Controllers\\IngressosVendasController.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_API\\Controllers\\IngressosVendasController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswBsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T05:45:39.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VendaController.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Controllers\\VendaController.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_API\\Controllers\\VendaController.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Controllers\\VendaController.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_API\\Controllers\\VendaController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAkwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T05:44:58.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IngressoController.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Controllers\\IngressoController.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_API\\Controllers\\IngressoController.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Controllers\\IngressoController.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_API\\Controllers\\IngressoController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAADwvzAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T05:44:26.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RelatorioIngressosController.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Controllers\\RelatorioIngressosController.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_API\\Controllers\\RelatorioIngressosController.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Controllers\\RelatorioIngressosController.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_API\\Controllers\\RelatorioIngressosController.cs",
+              "ViewState": "AgIAAKYAAAAAAAAAAAAswLIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T05:43:51.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Validacao.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Controllers\\Validacao.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_API\\Controllers\\Validacao.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Controllers\\Validacao.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_API\\Controllers\\Validacao.cs",
+              "ViewState": "AgIAAMcAAAAAAAAAAAAiwM8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T05:43:02.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RelatorioVendasController.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Controllers\\RelatorioVendasController.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_API\\Controllers\\RelatorioVendasController.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Controllers\\RelatorioVendasController.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_API\\Controllers\\RelatorioVendasController.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAswMkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T05:42:09.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AvaliacaoSugestaoController.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Controllers\\AvaliacaoSugestaoController.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_API\\Controllers\\AvaliacaoSugestaoController.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Controllers\\AvaliacaoSugestaoController.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_API\\Controllers\\AvaliacaoSugestaoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T05:41:16.533Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AvaliacaoRespostasController.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Controllers\\AvaliacaoRespostasController.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_API\\Controllers\\AvaliacaoRespostasController.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Controllers\\AvaliacaoRespostasController.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_API\\Controllers\\AvaliacaoRespostasController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwLAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T05:35:01.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "KeyGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Controllers\\KeyGenerator.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_API\\Controllers\\KeyGenerator.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Controllers\\KeyGenerator.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_API\\Controllers\\KeyGenerator.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAiwG4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T19:12:38.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MasterController.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Controllers\\MasterController.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_API\\Controllers\\MasterController.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_API\\ExplorandoMarteComTecnologia_API\\Controllers\\MasterController.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_API\\Controllers\\MasterController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T14:42:24.482Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

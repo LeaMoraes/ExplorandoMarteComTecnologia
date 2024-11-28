@@ -1,0 +1,84 @@
+﻿<Page x:Class="ExplorandoMarteComTecnologia_WPF.Views.Exposicoes"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ExplorandoMarteComTecnologia_WPF.Views"
+      Unloaded="OnPageUnloaded"
+      mc:Ignorable="d" 
+      d:DesignHeight="768" d:DesignWidth="1366"
+      Title="Exposicoes">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Imagens/Fundos/Fundo6.png"/>
+        </Grid.Background>
+
+
+        <Image x:Name="pcbFundoElementos" Margin="50,20,50,20" Source="/Imagens/Fundos/FundoDeElementos1.png" Stretch="Fill"/>
+
+        <StackPanel Margin="20">
+            <TextBlock Text="Exposições" FontSize="30" FontWeight="Bold" Foreground="White" HorizontalAlignment="Center" Margin="0,20,0,20"/>
+
+            <WrapPanel Margin="40, 80, 0, 0">
+                <!-- Obra 1 -->
+                <Button Click="Obra_Click" Tag="0" Margin="12">
+                    <Image Source="/Imagens/Exposicoes/O_Planeta_Vermelho.jpg" Width="220" Height="190" Stretch="Fill"/>
+                </Button>
+
+                <!-- Obra 2 -->
+                <Button Click="Obra_Click" Tag="1" Margin="12">
+                    <Image Source="/Imagens/Exposicoes/Exploracao_e_Potencial_para_Vida.png" Width="220" Height="190" Stretch="Fill"/>
+                </Button>
+
+                <!-- Obra 3 -->
+                <Button Click="Obra_Click" Tag="2" Margin="12">
+                    <Image Source="/Imagens/Exposicoes/Terreno_Marciano.jpg" Width="220" Height="190" Stretch="Fill"/>
+                </Button>
+
+                <!-- Obra 4 -->
+                <Button Click="Obra_Click" Tag="3" Margin="12">
+                    <Image Source="/Imagens/Exposicoes/Agua_em_Marte.jpg" Width="220" Height="190" Stretch="Fill"/>
+                </Button>
+
+                <!-- Obra 5 -->
+                <Button Click="Obra_Click" Tag="4" Margin="12">
+                    <Image Source="/Imagens/Exposicoes/Valles_Marineris.jpg" Width="220" Height="190" Stretch="Fill"/>
+                </Button>
+
+                <!-- Obra 6 -->
+                <Button Click="Obra_Click" Tag="5" Margin="142,50,0,12">
+                    <Image Source="/Imagens/Exposicoes/O_Monte_Olimpo.jpg" Width="220" Height="190" Stretch="Fill"/>
+                </Button>
+
+                <!-- Obra 7 -->
+                <Button Click="Obra_Click" Tag="6" Margin="142,50,0,12">
+                    <Image Source="/Imagens/Exposicoes/Impacto_de_Asteroides.jpg" Width="220" Height="190" Stretch="Fill"/>
+                </Button>
+
+                <!-- Obra 8 -->
+                <Button Click="Obra_Click" Tag="7" Margin="142,50,0,12">
+                    <Image Source="/Imagens/Exposicoes/Colonizacao_de_Marte.jpg" Width="220" Height="190" Stretch="Fill"/>
+                </Button>
+
+
+            </WrapPanel>
+        </StackPanel>
+
+        <Button x:Name="btnMenu" HorizontalAlignment="Left" Height="88" Margin="83,51,0,0" VerticalAlignment="Top" Width="247" Click="btnMenu_Click">
+            <Button.Template>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Grid>
+                        <Image x:Name="imgButton" Source="/Imagens/Botoes/BotaoMenu.png" />
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="imgButton" Property="Source" Value="/Imagens/Botoes/BotaoMenuSelecionado.png"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+
+    </Grid>
+</Page>

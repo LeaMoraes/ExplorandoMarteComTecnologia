@@ -1,0 +1,16 @@
+﻿<Window x:Class="ExplorandoMarteComTecnologia_WPF.Views.Questionario"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExplorandoMarteComTecnologia_WPF.Views"
+        mc:Ignorable="d"
+        Title="Questionario"
+        Height="768" Width="1366"
+        ResizeMode="NoResize"           
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Button Content="Mandar resposta MainFrame" HorizontalAlignment="Left" Margin="326,320,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+
+    </Grid>
+</Window>

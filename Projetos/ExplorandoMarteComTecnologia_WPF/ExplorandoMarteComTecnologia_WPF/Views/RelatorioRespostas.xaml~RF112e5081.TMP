@@ -1,0 +1,75 @@
+﻿<Page x:Class="ExplorandoMarteComTecnologia_WPF.Views.RelatorioRespostas"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ExplorandoMarteComTecnologia_WPF.Views"
+      mc:Ignorable="d" 
+      d:DesignHeight="768" d:DesignWidth="1366"
+      Title="RelatorioRespostas">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Imagens/Fundos/Fundo4.png"/>
+        </Grid.Background>
+
+        <Grid Margin="48,64,683,0">
+            <!-- Definindo cinco linhas para os pares de respostas -->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <!-- Primeira resposta -->
+            <StackPanel Grid.Row="0" Orientation="Vertical" Margin="0,0,0,20">
+                <Label x:Name="lblRespostaSelecionada1" Content="Resposta" Foreground="#FF37F703" FontFamily="Arial" FontSize="32" Background="#FF1B1B1B"/>
+                <Label x:Name="lblRespostaCerta1" Content="D) Monte Olimpo, com 27 km de altura" Foreground="#FF55F110" Visibility="Hidden" FontFamily="Arial" FontSize="32" Background="#FF1B1B1B"/>
+            </StackPanel>
+
+            <!-- Segunda resposta -->
+            <StackPanel Grid.Row="1" Orientation="Vertical" Margin="0,0,0,20">
+                <Label x:Name="lblRespostaSelecionada2" Content="Resposta" Foreground="#FF37F703" FontFamily="Arial" FontSize="32" Background="#FF1B1B1B"/>
+                <Label x:Name="lblRespostaCerta2" Content="C) Elon Musk" Foreground="#FF55F110" Visibility="Hidden" FontFamily="Arial" FontSize="32" Background="#FF1B1B1B"/>
+            </StackPanel>
+
+            <!-- Terceira resposta -->
+            <StackPanel Grid.Row="2" Orientation="Vertical" Margin="0,0,0,20">
+                <Label x:Name="lblRespostaSelecionada3" Content="Resposta" Foreground="#FF37F703" FontFamily="Arial" FontSize="32" Background="#FF1B1B1B"/>
+                <Label x:Name="lblRespostaCerta3" Content="B) A presença de óxido de ferro em sua superfície" Foreground="#FF55F110" Visibility="Hidden" FontFamily="Arial" FontSize="32" Background="#FF1B1B1B"/>
+            </StackPanel>
+
+            <!-- Quarta resposta -->
+            <StackPanel Grid.Row="3" Orientation="Vertical" Margin="0,0,0,20">
+                <Label x:Name="lblRespostaSelecionada4" Content="Resposta" Foreground="#FF37F703" FontFamily="Arial" FontSize="32" Background="#FF1B1B1B"/>
+                <Label x:Name="lblRespostaCerta4" Content="A) Evidências de água líquida em rios e lagos secos." Foreground="#FF55F110" Visibility="Hidden" FontFamily="Arial" FontSize="32" Background="#FF1B1B1B"/>
+            </StackPanel>
+
+            <!-- Quinta resposta -->
+            <StackPanel Grid.Row="4" Orientation="Vertical" Margin="0,0,0,20">
+                <Label x:Name="lblRespostaSelecionada5" Content="Resposta" Foreground="#FF37F703" FontFamily="Arial" FontSize="32" Background="#FF1B1B1B"/>
+                <Label x:Name="lblRespostaCerta5" Content="C) Missões robóticas para mapear a superfície." Foreground="#FF55F110" Visibility="Hidden" FontFamily="Arial" FontSize="32" Background="#FF1B1B1B"/>
+            </StackPanel>
+        </Grid>
+
+
+        <Label x:Name="lblPessoasTotalQuestao1" Content="Quantidade" HorizontalAlignment="Left" Margin="48,110,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Arial" FontSize="32" Background="#FF1B1B1B"/>
+        <Label x:Name="lblPessoasTotalQuestao2" Content="Quantidade" HorizontalAlignment="Left" Margin="48,226,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Arial" FontSize="32" Background="#FF1B1B1B"/>
+        <Label x:Name="lblPessoasTotalQuestao3" Content="Quantidade" HorizontalAlignment="Left" Margin="48,337,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Arial" FontSize="32" Background="#FF1B1B1B"/>
+        <Label x:Name="lblPessoasTotalQuestao4" Content="Quantidade" HorizontalAlignment="Left" Margin="48,452,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Arial" FontSize="32" Background="#FF1B1B1B"/>
+        <Label x:Name="lblPessoasTotalQuestao5" Content="Quantidade" HorizontalAlignment="Left" Margin="48,566,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Arial" FontSize="32" Background="#FF1B1B1B"/>
+
+        <Label x:Name="lblSuasRespostas" Content="Suas Respostas" HorizontalAlignment="Left" Margin="14,12,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Arial" FontSize="32" Background="#FF1B1B1B"/>
+        <Label x:Name="lblPerguntaNumeracao1" Content="1)" HorizontalAlignment="Left" Margin="10,110,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Arial" FontSize="32" Background="#FF1B1B1B"/>
+        <Label x:Name="lblPerguntaNumeracao2" Content="2)" HorizontalAlignment="Left" Margin="10,226,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Arial" FontSize="32" Background="#FF1B1B1B"/>
+        <Label x:Name="lblPerguntaNumeracao3" Content="3)" HorizontalAlignment="Left" Margin="10,337,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Arial" FontSize="32" Background="#FF1B1B1B"/>
+        <Label x:Name="lblPerguntaNumeracao4" Content="4)" HorizontalAlignment="Left" Margin="10,452,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Arial" FontSize="32" Background="#FF1B1B1B"/>
+        <Label x:Name="lblPerguntaNumeracao5" Content="5)" HorizontalAlignment="Left" Margin="10,566,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Arial" FontSize="32" Background="#FF1B1B1B"/>
+        <Label x:Name="lblEstatisticas" Content="Estatisticas" HorizontalAlignment="Left" Margin="14,12,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Arial" FontSize="32" Background="#FF1B1B1B"/>
+
+        <Image x:Name="pcbContinuar" Margin="1088,588,80,80" Source="/Imagens/PlaceHolder/Questionario/Botao Continuar.png" Stretch="Fill" MouseDown="pcbContinuar_MouseDown"/>
+
+    </Grid>
+</Page>

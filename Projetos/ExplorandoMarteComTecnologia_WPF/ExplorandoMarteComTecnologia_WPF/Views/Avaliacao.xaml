@@ -1,0 +1,70 @@
+﻿<Page x:Class="ExplorandoMarteComTecnologia_WPF.Views.Avaliacao"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ExplorandoMarteComTecnologia_WPF.Views"
+      mc:Ignorable="d" 
+      d:DesignHeight="768" d:DesignWidth="1366"
+      Title="Avaliacao"
+      Height="768" Width="1366">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Imagens/Fundos/Fundo5.jpg"/>
+        </Grid.Background>
+
+        <Label x:Name="lblPergunta" Content="lblPergunta" Margin="0,26,0,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="30" FontWeight="Bold" Height="87" HorizontalAlignment="Center" Background="#FFE6E6E6"/>
+        <Label x:Name="lblMensagem" Content="lblMensagem" HorizontalAlignment="Left" Margin="59,678,0,0" VerticalAlignment="Top" FontFamily="Arial" FontWeight="Bold" FontSize="24" Foreground="#FF900000"/>
+
+        <Image x:Name="pcbExcelente" Height="100" Margin="941,218,280,0" VerticalAlignment="Top" Source="/Imagens/Botoes/Avaliacao/BotaoExcelente.png" MouseDown="pcbExcelente_MouseDown" Stretch="Fill"/>
+        <Image x:Name="pcbBom" Height="100" Margin="776,218,445,0" VerticalAlignment="Top" Source="/Imagens/Botoes/Avaliacao/BotaoBom.png" MouseDown="pcbBom_MouseDown" Stretch="Fill"/>
+        <Image x:Name="pcbRegular" HorizontalAlignment="Center" Height="100" Margin="0,218,0,0" VerticalAlignment="Top" Width="146" Source="/Imagens/Botoes/Avaliacao/BotaoRegular.png" Stretch="Fill" MouseDown="pcbRegular_MouseDown"/>
+        <Image x:Name="pcbRuim" Height="100" Margin="445,218,776,0" VerticalAlignment="Top" Source="/Imagens/Botoes/Avaliacao/BotaoRuim.png" Stretch="Fill" MouseDown="pcbRuim_MouseDown" RenderTransformOrigin="0.508,0.52"/>
+        <Image x:Name="pcbPessimo" Height="100" Margin="280,218,941,0" VerticalAlignment="Top" Source="/Imagens/Botoes/Avaliacao/BotaoPessimo.png" MouseDown="pcbPessimo_MouseDown" Stretch="Fill"/>
+
+        <Image x:Name="pcbContinuar" HorizontalAlignment="Left" Height="94" Margin="1065,579,0,0" VerticalAlignment="Top" Width="237" Source="/Imagens/Botoes/BotaoContinuar.png" MouseDown="pcbContinuar_MouseDown" Stretch="Fill"/>
+        <TextBox x:Name="txbComentario" HorizontalAlignment="Center" Height="186" Margin="0,132,0,0" MaxLength="180" TextWrapping="Wrap" VerticalAlignment="Top" Width="898" FontSize="28" FontWeight="Bold" FontFamily="Arial"/>
+
+
+        <Image x:Name="pcbFundoElementos" HorizontalAlignment="Left" Height="346" Margin="78,327,0,0" VerticalAlignment="Top" Width="982" Source="/Imagens/Fundos/FundoDeElementos1.png" Stretch="Fill"/>
+
+        <Image x:Name="pcbKeyA" HorizontalAlignment="Left" Height="82" Margin="120,430,0,0" VerticalAlignment="Top" Width="85" Source="/Imagens/Botoes/Teclado/Maiusculas/A.png" MouseDown="pcbKeyA_MouseDown"/>
+        <Image x:Name="pcbKeyB" HorizontalAlignment="Left" Height="82" Margin="534,517,0,0" VerticalAlignment="Top" Width="84" Source="/Imagens/Botoes/Teclado/Maiusculas/B.png" MouseDown="pcbKeyB_MouseDown"/>
+        <Image x:Name="pcbKeyC" HorizontalAlignment="Left" Height="82" Margin="360,517,0,0" VerticalAlignment="Top" Width="84" Source="/Imagens/Botoes/Teclado/Maiusculas/C.png" MouseDown="pcbKeyC_MouseDown"/>
+        <Image x:Name="pcbKeyD" HorizontalAlignment="Left" Height="82" Margin="294,430,0,0" VerticalAlignment="Top" Width="85" Source="/Imagens/Botoes/Teclado/Maiusculas/D.png" MouseDown="pcbKeyD_MouseDown"/>
+        <Image x:Name="pcbKeyE" HorizontalAlignment="Left" Height="82" Margin="259,0,0,0" VerticalAlignment="Center" Width="85" Source="/Imagens/Botoes/Teclado/Maiusculas/E.png" MouseDown="pcbKeyE_MouseDown"/>
+        <Image x:Name="pcbKeyF" HorizontalAlignment="Left" Height="82" Margin="381,430,0,0" VerticalAlignment="Top" Width="85" Source="/Imagens/Botoes/Teclado/Maiusculas/F.png" MouseDown="pcbKeyF_MouseDown"/>
+        <Image x:Name="pcbKeyG" HorizontalAlignment="Left" Height="82" Margin="468,430,0,0" VerticalAlignment="Top" Width="84" Source="/Imagens/Botoes/Teclado/Maiusculas/G.png" MouseDown="pcbKeyG_MouseDown"/>
+        <Image x:Name="pcbKeyH" HorizontalAlignment="Left" Height="82" Margin="555,430,0,0" VerticalAlignment="Top" Width="85" Source="/Imagens/Botoes/Teclado/Maiusculas/H.png" MouseDown="pcbKeyH_MouseDown"/>
+        <Image x:Name="pcbKeyI" HorizontalAlignment="Left" Height="82" Margin="694,0,0,0" VerticalAlignment="Center" Width="85" Source="/Imagens/Botoes/Teclado/Maiusculas/I.png" MouseDown="pcbKeyI_MouseDown"/>
+        <Image x:Name="pcbKeyJ" HorizontalAlignment="Center" Height="82" Margin="0,430,0,0" VerticalAlignment="Top" Width="84" Source="/Imagens/Botoes/Teclado/Maiusculas/J.png" MouseDown="pcbKeyJ_MouseDown"/>
+        <Image x:Name="pcbKeyK" HorizontalAlignment="Left" Height="82" Margin="729,430,0,0" VerticalAlignment="Top" Width="85" Source="/Imagens/Botoes/Teclado/Maiusculas/K.png" MouseDown="pcbKeyK_MouseDown"/>
+        <Image x:Name="pcbKeyL" HorizontalAlignment="Left" Height="82" Margin="816,430,0,0" VerticalAlignment="Top" Width="85" Source="/Imagens/Botoes/Teclado/Maiusculas/L.png" MouseDown="pcbKeyL_MouseDown"/>
+        <Image x:Name="pcbKeyM" HorizontalAlignment="Left" Height="82" Margin="708,517,0,0" VerticalAlignment="Top" Width="84" Source="/Imagens/Botoes/Teclado/Maiusculas/M.png" MouseDown="pcbKeyM_MouseDown"/>
+        <Image x:Name="pcbKeyN" HorizontalAlignment="Left" Height="82" Margin="620,517,0,0" VerticalAlignment="Top" Width="86" Source="/Imagens/Botoes/Teclado/Maiusculas/N.png" MouseDown="pcbKeyN_MouseDown"/>
+        <Image x:Name="pcbKeyO" HorizontalAlignment="Left" Height="82" Margin="781,0,0,0" VerticalAlignment="Center" Width="85" Source="/Imagens/Botoes/Teclado/Maiusculas/O.png" MouseDown="pcbKeyO_MouseDown"/>
+        <Image x:Name="pcbKeyP" HorizontalAlignment="Left" Height="82" Margin="868,0,0,0" VerticalAlignment="Center" Width="85" Source="/Imagens/Botoes/Teclado/Maiusculas/P.png" MouseDown="pcbKeyP_MouseDown"/>
+        <Image x:Name="pcbKeyQ" HorizontalAlignment="Left" Height="82" Margin="85,0,0,0" VerticalAlignment="Center" Width="85" Source="/Imagens/Botoes/Teclado/Maiusculas/Q.png" MouseDown="pcbKeyQ_MouseDown"/>
+        <Image x:Name="pcbKeyR" HorizontalAlignment="Left" Height="82" Margin="346,0,0,0" VerticalAlignment="Center" Width="85" Source="/Imagens/Botoes/Teclado/Maiusculas/R.png" MouseDown="pcbKeyR_MouseDown"/>
+        <Image x:Name="pcbKeyS" HorizontalAlignment="Left" Height="82" Margin="207,430,0,0" VerticalAlignment="Top" Width="85" Source="/Imagens/Botoes/Teclado/Maiusculas/S.png" MouseDown="pcbKeyS_MouseDown"/>
+        <Image x:Name="pcbKeyT" HorizontalAlignment="Left" Height="82" Margin="433,0,0,0" VerticalAlignment="Center" Width="85" Source="/Imagens/Botoes/Teclado/Maiusculas/T.png" MouseDown="pcbKeyT_MouseDown"/>
+        <Image x:Name="pcbKeyU" HorizontalAlignment="Left" Height="82" Margin="607,0,0,0" VerticalAlignment="Center" Width="85" Source="/Imagens/Botoes/Teclado/Maiusculas/U.png" MouseDown="pcbKeyU_MouseDown"/>
+        <Image x:Name="pcbKeyV" HorizontalAlignment="Left" Height="82" Margin="446,517,0,0" VerticalAlignment="Top" Width="86" Source="/Imagens/Botoes/Teclado/Maiusculas/V.png" MouseDown="pcbKeyV_MouseDown"/>
+        <Image x:Name="pcbKeyW" HorizontalAlignment="Left" Height="82" Margin="172,0,0,0" VerticalAlignment="Center" Width="85" Source="/Imagens/Botoes/Teclado/Maiusculas/W.png" MouseDown="pcbKeyW_MouseDown"/>
+        <Image x:Name="pcbKeyX" HorizontalAlignment="Left" Height="82" Margin="272,517,0,0" VerticalAlignment="Top" Width="86" Source="/Imagens/Botoes/Teclado/Maiusculas/X.png" MouseDown="pcbKeyX_MouseDown"/>
+        <Image x:Name="pcbKeyY" HorizontalAlignment="Left" Height="82" Margin="520,0,0,0" VerticalAlignment="Center" Width="85" Source="/Imagens/Botoes/Teclado/Maiusculas/Y.png" MouseDown="pcbKeyY_MouseDown"/>
+        <Image x:Name="pcbKeyZ" HorizontalAlignment="Left" Height="82" Margin="186,517,0,0" VerticalAlignment="Top" Width="84" Source="/Imagens/Botoes/Teclado/Maiusculas/Z.png" MouseDown="pcbKeyZ_MouseDown"/>
+
+        <Image x:Name="pcbKeyÇ" HorizontalAlignment="Left" Height="82" Margin="903,430,0,0" VerticalAlignment="Top" Width="84" Source="/Imagens/Botoes/Teclado/Maiusculas/Ç.png" MouseDown="pcbKeyÇ_MouseDown"/>
+        <Image x:Name="pcbKeySpace" HorizontalAlignment="Left" Height="54" Margin="273,604,0,0" VerticalAlignment="Top" Width="576" Source="/Imagens/Botoes/Teclado/Space.png" Stretch="Fill" MouseDown="pcbKeySpace_MouseDown"/>
+
+        <Image x:Name="pcbKeyComma" HorizontalAlignment="Left" Height="82" Margin="795,517,0,0" VerticalAlignment="Top" Width="84" Source="/Imagens/Botoes/Teclado/Virgula.png" MouseDown="pcbKeyComma_MouseDown"/>
+        <Image x:Name="pcbKeyDot" HorizontalAlignment="Left" Height="82" Margin="882,517,0,0" VerticalAlignment="Top" Width="84" Source="/Imagens/Botoes/Teclado/Ponto.png" MouseDown="pcbKeyDot_MouseDown"/>
+        <Image x:Name="pcbKeyShift" HorizontalAlignment="Left" Height="82" Margin="99,517,0,0" VerticalAlignment="Top" Width="84" Source="/Imagens/Botoes/Teclado/ShiftAtivo.png" MouseDown="pcbKeyShift_MouseDown"/>
+
+        <Image x:Name="pcbKeyBackspace" HorizontalAlignment="Left" Height="82" Margin="955,0,0,0" VerticalAlignment="Center" Width="84" Source="/Imagens/Botoes/Teclado/Backspace.png" MouseDown="pcbKeyBackspace_MouseDown"/>
+
+
+    </Grid>
+</Page>

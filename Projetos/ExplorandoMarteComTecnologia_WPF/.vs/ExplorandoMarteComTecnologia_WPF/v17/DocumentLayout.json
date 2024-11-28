@@ -1,0 +1,353 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_wpf\\explorandomartecomtecnologia_wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|solutionrelative:explorandomartecomtecnologia_wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_wpf\\explorandomartecomtecnologia_wpf\\controllers\\controle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|solutionrelative:explorandomartecomtecnologia_wpf\\controllers\\controle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_wpf\\explorandomartecomtecnologia_wpf\\dto\\questionarioavaliacaorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|solutionrelative:explorandomartecomtecnologia_wpf\\dto\\questionarioavaliacaorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_wpf\\explorandomartecomtecnologia_wpf\\dto\\questionarioavaliacaosemsugestao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|solutionrelative:explorandomartecomtecnologia_wpf\\dto\\questionarioavaliacaosemsugestao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_wpf\\explorandomartecomtecnologia_wpf\\views\\relatoriorespostas.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|solutionrelative:explorandomartecomtecnologia_wpf\\views\\relatoriorespostas.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_wpf\\explorandomartecomtecnologia_wpf\\views\\questionario.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|solutionrelative:explorandomartecomtecnologia_wpf\\views\\questionario.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_wpf\\explorandomartecomtecnologia_wpf\\views\\questionario.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|solutionrelative:explorandomartecomtecnologia_wpf\\views\\questionario.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_wpf\\explorandomartecomtecnologia_wpf\\views\\configuracoes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|solutionrelative:explorandomartecomtecnologia_wpf\\views\\configuracoes.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_wpf\\explorandomartecomtecnologia_wpf\\views\\exposicoes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|solutionrelative:explorandomartecomtecnologia_wpf\\views\\exposicoes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_wpf\\explorandomartecomtecnologia_wpf\\views\\exposicao.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|solutionrelative:explorandomartecomtecnologia_wpf\\views\\exposicao.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_wpf\\explorandomartecomtecnologia_wpf\\views\\exposicao.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|solutionrelative:explorandomartecomtecnologia_wpf\\views\\exposicao.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_wpf\\explorandomartecomtecnologia_wpf\\views\\relatoriorespostas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|solutionrelative:explorandomartecomtecnologia_wpf\\views\\relatoriorespostas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_wpf\\explorandomartecomtecnologia_wpf\\views\\exposicoes.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|solutionrelative:explorandomartecomtecnologia_wpf\\views\\exposicoes.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_wpf\\explorandomartecomtecnologia_wpf\\views\\mapa.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|solutionrelative:explorandomartecomtecnologia_wpf\\views\\mapa.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_wpf\\explorandomartecomtecnologia_wpf\\views\\mapa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|solutionrelative:explorandomartecomtecnologia_wpf\\views\\mapa.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_wpf\\explorandomartecomtecnologia_wpf\\views\\avaliacao.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|solutionrelative:explorandomartecomtecnologia_wpf\\views\\avaliacao.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_wpf\\explorandomartecomtecnologia_wpf\\service\\controllservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|solutionrelative:explorandomartecomtecnologia_wpf\\service\\controllservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_wpf\\explorandomartecomtecnologia_wpf\\controllers\\estatico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|solutionrelative:explorandomartecomtecnologia_wpf\\controllers\\estatico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_wpf\\explorandomartecomtecnologia_wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|solutionrelative:explorandomartecomtecnologia_wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_wpf\\explorandomartecomtecnologia_wpf\\views\\configuracoes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|solutionrelative:explorandomartecomtecnologia_wpf\\views\\configuracoes.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|c:\\users\\rea\\documents\\_projetos\\c#\\explorandomartecomtecnologia_wpf\\explorandomartecomtecnologia_wpf\\views\\avaliacao.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{14ACD227-7996-4896-872D-590BCC5923C7}|ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF.csproj|solutionrelative:explorandomartecomtecnologia_wpf\\views\\avaliacao.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "QuestionarioAvaliacaoSemSugestao.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\DTO\\QuestionarioAvaliacaoSemSugestao.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_WPF\\DTO\\QuestionarioAvaliacaoSemSugestao.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\DTO\\QuestionarioAvaliacaoSemSugestao.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_WPF\\DTO\\QuestionarioAvaliacaoSemSugestao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T05:55:44.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuestionarioAvaliacaoRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\DTO\\QuestionarioAvaliacaoRequest.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_WPF\\DTO\\QuestionarioAvaliacaoRequest.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\DTO\\QuestionarioAvaliacaoRequest.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_WPF\\DTO\\QuestionarioAvaliacaoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T05:55:43.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RelatorioRespostas.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\Views\\RelatorioRespostas.xaml.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_WPF\\Views\\RelatorioRespostas.xaml.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\Views\\RelatorioRespostas.xaml.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_WPF\\Views\\RelatorioRespostas.xaml.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAowHkAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T04:14:15.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Exposicao.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\Views\\Exposicao.xaml.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_WPF\\Views\\Exposicao.xaml.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\Views\\Exposicao.xaml.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_WPF\\Views\\Exposicao.xaml.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAQwE8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T16:18:26.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Exposicoes.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\Views\\Exposicoes.xaml.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_WPF\\Views\\Exposicoes.xaml.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\Views\\Exposicoes.xaml.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_WPF\\Views\\Exposicoes.xaml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA1wCUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T16:17:20.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Mapa.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\Views\\Mapa.xaml.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_WPF\\Views\\Mapa.xaml.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\Views\\Mapa.xaml.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_WPF\\Views\\Mapa.xaml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwDQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T04:08:27.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Avaliacao.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\Views\\Avaliacao.xaml.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_WPF\\Views\\Avaliacao.xaml.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\Views\\Avaliacao.xaml.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_WPF\\Views\\Avaliacao.xaml.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwEAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T04:09:15.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Questionario.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\Views\\Questionario.xaml.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_WPF\\Views\\Questionario.xaml.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\Views\\Questionario.xaml.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_WPF\\Views\\Questionario.xaml.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAAAG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T04:29:58.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Questionario.xaml",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\Views\\Questionario.xaml",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_WPF\\Views\\Questionario.xaml",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\Views\\Questionario.xaml",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_WPF\\Views\\Questionario.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-07T04:29:53.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_WPF\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_WPF\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAowGQAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T04:14:52.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RelatorioRespostas.xaml",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\Views\\RelatorioRespostas.xaml",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_WPF\\Views\\RelatorioRespostas.xaml",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\Views\\RelatorioRespostas.xaml",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_WPF\\Views\\RelatorioRespostas.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-07T04:51:17.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Controle.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\Controllers\\Controle.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_WPF\\Controllers\\Controle.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\Controllers\\Controle.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_WPF\\Controllers\\Controle.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAADgv2YAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T04:13:57.587Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ControllService.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\Service\\ControllService.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_WPF\\Service\\ControllService.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\Service\\ControllService.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_WPF\\Service\\ControllService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA1wDgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T04:13:32.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Estatico.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\Controllers\\Estatico.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_WPF\\Controllers\\Estatico.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\Controllers\\Estatico.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_WPF\\Controllers\\Estatico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T04:10:15.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Avaliacao.xaml",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\Views\\Avaliacao.xaml",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_WPF\\Views\\Avaliacao.xaml",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\Views\\Avaliacao.xaml",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_WPF\\Views\\Avaliacao.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-07T04:09:05.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Configuracoes.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\Views\\Configuracoes.xaml.cs",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_WPF\\Views\\Configuracoes.xaml.cs",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\Views\\Configuracoes.xaml.cs",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_WPF\\Views\\Configuracoes.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAArwBoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T04:08:18.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Configuracoes.xaml",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\Views\\Configuracoes.xaml",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_WPF\\Views\\Configuracoes.xaml",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\Views\\Configuracoes.xaml",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_WPF\\Views\\Configuracoes.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-07T03:36:31.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Exposicao.xaml",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\Views\\Exposicao.xaml",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_WPF\\Views\\Exposicao.xaml",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\Views\\Exposicao.xaml",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_WPF\\Views\\Exposicao.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-22T17:37:15.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Mapa.xaml",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\Views\\Mapa.xaml",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_WPF\\Views\\Mapa.xaml",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\Views\\Mapa.xaml",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_WPF\\Views\\Mapa.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-22T15:20:23.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_WPF\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\MainWindow.xaml",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_WPF\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-17T18:26:05.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Exposicoes.xaml",
+              "DocumentMoniker": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\Views\\Exposicoes.xaml",
+              "RelativeDocumentMoniker": "ExplorandoMarteComTecnologia_WPF\\Views\\Exposicoes.xaml",
+              "ToolTip": "C:\\Users\\Rea\\Documents\\_Projetos\\C#\\ExplorandoMarteComTecnologia_WPF\\ExplorandoMarteComTecnologia_WPF\\Views\\Exposicoes.xaml",
+              "RelativeToolTip": "ExplorandoMarteComTecnologia_WPF\\Views\\Exposicoes.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-22T17:26:02.139Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

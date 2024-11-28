@@ -1,0 +1,41 @@
+﻿<Page x:Class="ExplorandoMarteComTecnologia_WPF.Views.Mapa"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ExplorandoMarteComTecnologia_WPF.Views"
+      Unloaded="OnPageUnloaded"
+      mc:Ignorable="d" 
+      d:DesignHeight="768" d:DesignWidth="1366"
+      Title="Mapa">
+
+    <Grid>
+        <!-- Fundo do grid -->
+        <Grid.Background>
+            <ImageBrush ImageSource="/Imagens/Fundos/Fundo1.png"/>
+        </Grid.Background>
+
+
+        <Image x:Name="pcbFundoElementos" Margin="26,20,26,20" Source="/Imagens/Fundos/FundoDeElementos1.png" Stretch="Fill"/>
+
+        <!-- Imagem do mapa centralizada e ajustada -->
+        <Image x:Name="imgMapa" Source="/Imagens/Mapa.png" Stretch="Uniform" Margin="227,131,80,73"/>
+
+        <!-- Botão do menu, com ajuste na margem e tamanho -->
+        <Button x:Name="btnMenu" HorizontalAlignment="Left" Height="88" Margin="46,38,0,0" VerticalAlignment="Top" Width="247" Click="btnMenu_Click">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <Image x:Name="imgButton" Source="/Imagens/Botoes/BotaoMenu.png"/>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="imgButton" Property="Source" Value="/Imagens/Botoes/BotaoMenuSelecionado.png"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+
+    </Grid>
+</Page>

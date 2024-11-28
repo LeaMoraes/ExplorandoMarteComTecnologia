@@ -1,0 +1,74 @@
+﻿<Window x:Class="ExplorandoMarteComTecnologia_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExplorandoMarteComTecnologia_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow"
+        Height="768" Width="1366"
+        WindowStyle="None"
+        ResizeMode="NoResize"           
+        WindowStartupLocation="CenterScreen" KeyDown="Window_KeyDown">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Imagens/Fundos/Fundo1.png"/>
+        </Grid.Background>
+
+        <!-- Botão Mapa -->
+        <Button x:Name="btnMapa" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="60,0,0,13" Width="400" Height="152" Click="btnMapa_Click">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <Image x:Name="imgButton" Source="/Imagens/Botoes/TelaPrincipal/BotaoMapa.png"/>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="imgButton" Property="Source" Value="/Imagens/Botoes/TelaPrincipal/BotaoMapaSelecionado.png"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+
+        <!-- Botão Exposições -->
+        <Button x:Name="btnExposicoes" Margin="0,0,0,13" Click="btnExposicoes_Click" Height="152" VerticalAlignment="Bottom" HorizontalAlignment="Center" Width="400">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <Image x:Name="imgButton" Source="/Imagens/Botoes/TelaPrincipal/BotaoExposicoes.png"/>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="imgButton" Property="Source" Value="/Imagens/Botoes/TelaPrincipal/BotaoExposicoesSelecionado.png"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+
+        <!-- Botão Questionário -->
+        <Button x:Name="btnQuestionario" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="0,0,60,13" Width="400" Height="152" Click="btnQuestionario_Click">
+            <Button.Template>
+                <ControlTemplate TargetType="Button">
+                    <Grid>
+                        <Image x:Name="imgButton" Source="/Imagens/Botoes/TelaPrincipal/BotaoQuestionario.png"/>
+                    </Grid>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="imgButton" Property="Source" Value="/Imagens/Botoes/TelaPrincipal/BotaoQuestionarioSelecionado.png"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+
+        <!-- Frame para conteúdo dinâmico (ajustado para ser desenhado por último) -->
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+        <Image x:Name="imgPainel" Margin="0,0,0,0" OpacityMask="#FF616161" Source="/Imagens/Fundos/FundoDeElementos1.png" Visibility="Hidden"/>
+        <Label x:Name="lblMensagemQuestionario" Content="Corrigindo suas respostas! Aguarde um momento..." Margin="86,0,86,0" VerticalAlignment="Center" FontSize="48" FontFamily="Arial" FontWeight="Bold" Foreground="White" Visibility="Hidden"/>
+
+
+    </Grid>
+</Window>
